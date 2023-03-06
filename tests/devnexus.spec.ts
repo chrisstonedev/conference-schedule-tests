@@ -5,7 +5,7 @@ test('no changes have been made to the Devnexus 2023 schedule', async ({page}) =
     {
       day: 'Wednesday', times: [
         {time: '07:30', talks: [{room: 'Foyer', name: 'Registration & Breakfast'}]},
-        {time: '09:00', talks: [{room: 'Sydney Marcus', name: 'Conf open and keynote'}]},
+        {time: '09:00', talks: [{room: 'Sydney Marcus', name: 'Five skills to force multiply your technical talent'}]},
         {
           time: '10:00', talks: [
             {room: '302', name: 'Learn Kubernetes the Java way'},
@@ -29,7 +29,7 @@ test('no changes have been made to the Devnexus 2023 schedule', async ({page}) =
             {room: '303', name: 'Upgrading a Legacy Java EE App with Style'},
             {room: '304', name: 'Cross-Platform Cloud CI/CD'},
             {room: '305', name: 'Cooking Recipes, Coding, an IDE and YOU'},
-            {room: '311', name: 'Minimum Viable Security for Cloud Native Stacks'},
+            {room: '311', name: 'How to report a vulnerability: Responsible Disclosure for Developers'},
             {room: '312', name: 'Quarkus for Spring Developers'},
             {
               room: '313',
@@ -79,7 +79,10 @@ test('no changes have been made to the Devnexus 2023 schedule', async ({page}) =
               name: 'If it isn\'t hot, it doesn\'t deliver: Apache Pinot, Food Delivery and why real-time analytics matter.',
             },
             {room: '403', name: 'Five ways open source will slow you down'},
-            {room: 'Sydney Marcus', name: 'My children will never deploy active-passive.'},
+            {
+              room: 'Sydney Marcus',
+              name: 'Don’t Reimplement Distributed Consensus Algorithms! (Learn to Use Them Instead)',
+            },
           ],
         },
         {
@@ -98,10 +101,10 @@ test('no changes have been made to the Devnexus 2023 schedule', async ({page}) =
             {room: '315', name: 'Java Platform TBD'},
             {room: '402', name: 'Mastering the Linux command line'},
             {room: '403', name: 'Observing Minecraft'},
-            {room: 'Sydney Marcus', name: 'Venkat Session II'},
+            {room: 'Sydney Marcus', name: 'Machine Learning Data Pipelines with Kafka and Tensorflow'},
           ],
         },
-        {time: '17:00', talks: [{room: 'Foyer', name: 'Conf Reception'}]},
+        {time: '17:00', talks: [{room: 'Foyer', name: 'Conf Reception and TECH NERD TRIVIA!'}]},
         {time: '17:30', talks: [{room: '315', name: 'The OffHeap Podcast. Devnexus Edition'}]},
       ],
     },
@@ -120,7 +123,7 @@ test('no changes have been made to the Devnexus 2023 schedule', async ({page}) =
           time: '10:00', talks: [
             {room: '302', name: 'CI/CD Pipelines : What, Why, How?'},
             {room: '303', name: 'Deep Dive MicroProfile 6.0 with Jakarta EE 10 Core Profile'},
-            {room: '304', name: 'Accessibility Auditing: Getting Started with Accessibility'},
+            {room: '304', name: 'Deceptive Patterns & FAST'},
             {room: '305', name: 'Loom Virtual Threads in the JDK 20'},
             {room: '311', name: 'Don\'t Trust anyone.... Secure your Microservices with ZeroTrust approach.'},
             {room: '312', name: 'Java to Kubernetes for dummies'},
@@ -129,10 +132,7 @@ test('no changes have been made to the Devnexus 2023 schedule', async ({page}) =
             {room: '315', name: 'Journey to cloud : leave no Java workload behind'},
             {room: '402', name: 'Wired! How your brain learns new (programming) languages'},
             {room: '403', name: 'Shifting Left with Kubernetes'},
-            {
-              room: 'Sydney Marcus',
-              name: 'Don’t Reimplement Distributed Consensus Algorithms! (Learn to Use Them Instead)',
-            },
+            {room: 'Sydney Marcus', name: 'My children will never deploy active-passive.'},
           ],
         },
         {time: '11:00', talks: [{room: 'Foyer', name: 'Morning Break'}]},
@@ -195,7 +195,7 @@ test('no changes have been made to the Devnexus 2023 schedule', async ({page}) =
             {room: '303', name: 'Let\'s take a look at how a Jakarta EE cloud-native application should look!'},
             {room: '304', name: 'Creating a Modern Web App Using Spring Boot and Vue.js with JHipster'},
             {room: '305', name: 'Revisiting Design Patterns after 20'},
-            {room: '311', name: 'How to report a vulnerability: Responsible Disclosure for Developers'},
+            {room: '311', name: 'Minimum Viable Security for Cloud Native Stacks'},
             {room: '312', name: 'Why You Should Be Doing Contract First API Development'},
             {room: '313', name: 'Kontain Your Spring'},
             {room: '314', name: 'To Production and Beyond: Observability for Modern Spring Applications'},
