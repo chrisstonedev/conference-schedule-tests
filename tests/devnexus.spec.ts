@@ -5,7 +5,10 @@ test('no changes have been made to the Devnexus 2023 schedule', async ({page}) =
     {
       day: 'Wednesday', times: [
         {time: '07:30', talks: [{room: 'Foyer', name: 'Registration & Breakfast'}]},
-        {time: '09:00', talks: [{room: 'Sydney Marcus', name: 'Five skills to force multiply your technical talent'}]},
+        {
+          time: '09:00',
+          talks: [{room: 'Sydney Marcus', name: 'KEYNOTE Five skills to force multiply your technical talent'}],
+        },
         {
           time: '10:00', talks: [
             {room: '302', name: 'Learn Kubernetes the Java way'},
