@@ -14,7 +14,7 @@ test('no changes have been made to the Devnexus 2023 schedule', async ({page}) =
             {room: '302', name: 'Learn Kubernetes the Java way'},
             {room: '303', name: 'Jakarta EE or Spring? Real world testimonies'},
             {room: '304', name: 'Full-stack reactive with Spring Boot & React'},
-            {room: '305', name: 'Know your Java?'},
+            {room: '305', name: 'Dataframes, Collections, and Streams in Java'},
             {room: '311', name: 'The Anatomy of Java Vulnerabilities'},
             {room: '312', name: 'Avoiding common pitfalls with modern microservices testing'},
             {room: '313', name: 'Observability For Java Devs - 2023 Edition'},
@@ -54,7 +54,7 @@ test('no changes have been made to the Devnexus 2023 schedule', async ({page}) =
             {room: '302', name: 'Getting started with Azure Spring Apps'},
             {room: '303', name: 'Jakarta EE and MicroProfile Highlights'},
             {room: '304', name: 'Vue for React Developers'},
-            {room: '305', name: 'Dataframes, Collections, and Streams in Java'},
+            {room: '305', name: 'Know your Java?'},
             {room: '311', name: 'Wargames - Java vulnerabilities and why you should care'},
             {room: '312', name: 'Quarkus Unleashed'},
             {room: '313', name: 'Natively Cloud Native - Building Agile Microservices with Micronaut'},
@@ -91,7 +91,7 @@ test('no changes have been made to the Devnexus 2023 schedule', async ({page}) =
         {
           time: '16:00', talks: [
             {room: '302', name: 'Service Mesh for Java Developers'},
-            {room: '303', name: 'Jakarta EE 10 and Beyond'},
+            {room: '303', name: 'Deep Dive MicroProfile 6.0 with Jakarta EE 10 Core Profile'},
             {room: '304', name: 'Properly Managing Data In React'},
             {room: '305', name: 'Refactor your code to Java 20'},
             {room: '311', name: 'Securing Your Software Supply Chain One Open Source Project at a Time'},
@@ -114,21 +114,21 @@ test('no changes have been made to the Devnexus 2023 schedule', async ({page}) =
     {
       day: 'Thursday',
       times: [
+        {time: '07:45', talks: [{room: '402', name: 'Women in Technology Breakfast'}]},
         {time: '08:00', talks: [{room: 'Foyer', name: 'Breakfast'}]},
         {
           time: '09:00',
           talks: [{
             room: 'Sydney Marcus',
-            name: 'Harnessing the Hyper-dimensional Mind: Visualizing Brain Computer Interfaces',
+            name: 'KEYNOTE Harnessing the Hyper-dimensional Mind: Visualizing Brain Computer Interfaces',
           }],
         },
         {
           time: '10:00', talks: [
             {room: '302', name: 'CI/CD Pipelines : What, Why, How?'},
-            {room: '303', name: 'Deep Dive MicroProfile 6.0 with Jakarta EE 10 Core Profile'},
+            {room: '303', name: 'Jakarta EE 10 and Beyond'},
             {room: '304', name: 'Deceptive Patterns & FAST'},
             {room: '305', name: 'Loom Virtual Threads in the JDK 20'},
-            {room: '311', name: 'Don\'t Trust anyone.... Secure your Microservices with ZeroTrust approach.'},
             {room: '312', name: 'Java to Kubernetes for dummies'},
             {room: '313', name: 'Introduction to Rancher Desktop'},
             {room: '314', name: 'Apache Pulsar Development 101 with Java'},
@@ -147,7 +147,7 @@ test('no changes have been made to the Devnexus 2023 schedule', async ({page}) =
             {room: '305', name: 'To Java 20 and Beyond!'},
             {room: '311', name: 'A Community Approach to OSS Distribution'},
             {room: '312', name: 'Change Data Streaming Patterns in Distributed Systems'},
-            {room: '313', name: 'Knative Core Concepts! And Spiders!'},
+            {room: '313', name: 'Don\'t Trust anyone.... Secure your Microservices with ZeroTrust approach.'},
             {room: '314', name: 'Introducing Spring for Apache Pulsar'},
             {room: '315', name: 'Leading Edge! Changing the Java World with Loom, Panama, and More'},
             {room: '402', name: 'The Programmer\'s Guide to JDK Flight Recorder'},
@@ -158,7 +158,7 @@ test('no changes have been made to the Devnexus 2023 schedule', async ({page}) =
         {time: '12:30', talks: [{room: 'Foyer', name: 'Lunch'}]},
         {
           time: '13:30', talks: [
-            {room: '302', name: 'Next up: Spring Security 6'},
+            {room: '302', name: 'Spring Cloud Gateway: What is it and What\'s New.'},
             {room: '303', name: 'Jakarta EE integration testing'},
             {
               room: '304',
@@ -194,7 +194,7 @@ test('no changes have been made to the Devnexus 2023 schedule', async ({page}) =
         },
         {
           time: '16:00', talks: [
-            {room: '302', name: 'Spring Cloud Gateway: What is it and What\'s New.'},
+            {room: '302', name: 'Next up: Spring Security 6'},
             {room: '303', name: 'Let\'s take a look at how a Jakarta EE cloud-native application should look!'},
             {room: '304', name: 'Creating a Modern Web App Using Spring Boot and Vue.js with JHipster'},
             {room: '305', name: 'Revisiting Design Patterns after 20'},
