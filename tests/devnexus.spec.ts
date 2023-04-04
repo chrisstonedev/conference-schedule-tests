@@ -3,7 +3,7 @@ import {expect, test} from '@playwright/test';
 test('no changes have been made to the Devnexus 2023 schedule', async ({page}) => {
   const days = [
     {
-      day: 'Wednesday', times: [
+      day: 'apr05', times: [
         {time: '07:30', talks: [{room: 'Foyer', name: 'Registration & Breakfast'}]},
         {
           time: '09:00',
@@ -55,7 +55,7 @@ test('no changes have been made to the Devnexus 2023 schedule', async ({page}) =
             {room: '311', name: 'Wargames - Java vulnerabilities and why you should care'},
             {room: '312', name: 'Quarkus for Spring Developers'},
             {room: '313', name: 'Natively Cloud Native - Building Agile Microservices with Micronaut'},
-            {room: '314', name: 'Beyond REST and CRUD: Integration patterns in Microservices'},
+            {room: '314', name: 'GraphQL from the Ground Up'},
             {room: '315', name: 'Patterns, Predictions, and Programming '},
             {room: '402', name: 'Writing Gradle plugins that users will love'},
             {room: '403', name: 'Developer Productivity - clean | secure | fast'},
@@ -77,10 +77,7 @@ test('no changes have been made to the Devnexus 2023 schedule', async ({page}) =
             {room: '313', name: 'Progressive Delivery with Kubernetes and Argo Rollouts'},
             {room: '314', name: 'Spring Modulith: What the what?'},
             {room: '315', name: 'Enhancing Java applications for the cloud'},
-            {
-              room: '402',
-              name: 'If it isn\'t hot, it doesn\'t deliver: Apache Pinot, Food Delivery and why real-time analytics matter.',
-            },
+            {room: '402', name: 'Mothering A Dev Team: How Wardley Maps Saved Me!',},
             {room: '403', name: 'Five ways open source will slow you down'},
             {
               room: 'Sydney Marcus',
@@ -110,14 +107,17 @@ test('no changes have been made to the Devnexus 2023 schedule', async ({page}) =
             {room: 'Sydney Marcus', name: 'Machine Learning Data Pipelines with Kafka and Tensorflow'},
           ],
         },
-        {time: '17:00', talks: [{room: 'Foyer', name: 'Conf Reception and TECH NERD TRIVIA!'}]},
+        {
+          time: '17:00',
+          talks: [{room: 'Foyer', name: 'Quarkus Rocks Reception Sponsored by Red Hat and TECH NERD TRIVIA!'}]
+        },
         {time: '17:30', talks: [{room: '315', name: 'The OffHeap Podcast. Devnexus Edition'}]},
       ],
     },
     {
-      day: 'Thursday',
+      day: 'apr06',
       times: [
-        {time: '07:45', talks: [{room: '402', name: 'Women in Technology Breakfast'}]},
+        {time: '07:45', talks: [{room: '311', name: 'Women in Technology Breakfast'}]},
         {time: '08:00', talks: [{room: 'Foyer', name: 'Breakfast'}]},
         {
           time: '09:00',
@@ -154,7 +154,7 @@ test('no changes have been made to the Devnexus 2023 schedule', async ({page}) =
             {room: '313', name: 'Knative Core Concepts! And Spiders!'},
             {room: '314', name: 'Introducing Spring for Apache Pulsar'},
             {room: '315', name: 'Leading Edge! Changing the Java World with Loom, Panama, and More'},
-            {room: '402', name: 'The Programmer\'s Guide to JDK Flight Recorder'},
+            {room: '402', name: 'Unlocking Value from Time Series Data with Open Source Tools in Java'},
             {room: '403', name: 'Things we\'ve learned about better software delivery principles through a pandemic'},
             {room: 'Sydney Marcus', name: 'From Monolith to (µ)Services. What happens with my Data?'},
           ],
@@ -172,7 +172,7 @@ test('no changes have been made to the Devnexus 2023 schedule', async ({page}) =
             {room: '311', name: 'Keeping It SAST-y'},
             {room: '312', name: 'A Call to (GitHub) Actions!'},
             {room: '313', name: 'Make your container apps smarter with sidecars and actions'},
-            {room: '314', name: 'GraphQL from the Ground Up'},
+            {room: '314', name: 'Beyond REST and CRUD: Integration patterns in Microservices'},
             {room: '315', name: 'Say the Words: Modern Java with JavaFX for Rich Client UIs'},
             {room: '402', name: 'What\'s Cooking in Maven?'},
             {room: '403', name: 'Unlocked : Growing Your Skills Through Open Source Development And Civic Hacking'},
@@ -181,7 +181,7 @@ test('no changes have been made to the Devnexus 2023 schedule', async ({page}) =
         },
         {time: '14:30', talks: [{room: 'Foyer', name: 'Afternoon Break'}]},
         {
-          time: '15:00', talks: [
+          time: '14:45', talks: [
             {room: '302', name: 'Reduce System Fragility with Terraform'},
             {room: '303', name: 'From javax to jakarta, the path paved with pitfalls'},
             {room: '304', name: 'Demystifying The Dreaded A/B Test'},
@@ -191,13 +191,13 @@ test('no changes have been made to the Devnexus 2023 schedule', async ({page}) =
             {room: '313', name: 'Testing cloud-native applications with ease!'},
             {room: '314', name: 'Spring Cloud Stream Past, Present, and Future.'},
             {room: '315', name: 'From Java 17 to 21 and beyond: Loom, Amber and Valhalla'},
-            {room: '402', name: 'Unlocking Value from Time Series Data with Open Source Tools in Java'},
+            {room: '402', name: 'The Programmer\'s Guide to JDK Flight Recorder'},
             {room: '403', name: 'Calculating the Value of Pie: Real-Time Survey Analysis With Apache Kafka®'},
             {room: 'Sydney Marcus', name: 'Hands-on introduction to OpenTelemetry tracing'},
           ],
         },
         {
-          time: '16:00', talks: [
+          time: '15:45', talks: [
             {room: '302', name: 'CI/CD Pipelines : What, Why, How?'},
             {room: '303', name: 'Let\'s take a look at how a Jakarta EE cloud-native application should look!'},
             {room: '304', name: 'Creating a Modern Web App Using Spring Boot and Vue.js with JHipster'},
@@ -212,22 +212,22 @@ test('no changes have been made to the Devnexus 2023 schedule', async ({page}) =
             {room: 'Sydney Marcus', name: 'JSON Data Modeling in Document Databases'},
           ],
         },
-        {time: '17:00', talks: [{room: 'Sydney Marcus', name: 'Mega Raffle and Conf Close'}]},
+        {time: '16:45', talks: [{room: 'Sydney Marcus', name: 'Mega Raffle and Conf Close'}]},
       ],
     },
   ];
 
   await page.goto('https://devnexus.com/schedule');
-  let allDays = Array.from(days.entries());
-  for (const [dayIndex, dayObject] of allDays) {
-    const dayLocator = page.locator('.apr13').nth(dayIndex);
-    let allTimes = Array.from(dayObject.times.entries());
+  for (const day of days) {
+    const dayLocator = page.locator(`.${day.day}`);
+    let allTimes = Array.from(day.times.entries());
     for (const [timeIndex, timeObject] of allTimes) {
-      const timeLocator = dayLocator.locator('.until09').nth(timeIndex);
+      const timeLocator = dayLocator.locator('.no-print>div').nth(2 + timeIndex);
+      await expect(timeLocator.locator('h3').first(), `Looking for time ${timeObject.time}`).toHaveText(timeObject.time + ':00');
       let allTalks = Array.from(timeObject.talks.entries());
       for (const [talkIndex, talkObject] of allTalks) {
         const talkLocator = timeLocator.locator('.track, .foyer').nth(talkIndex);
-        await expect(talkLocator.locator('a').first(), `Looking for name ${talkObject.name}`).toHaveText(talkObject.name);
+        await expect(talkLocator.locator('a').first(), `Looking for name ${talkObject.name} using locator ${talkLocator}`).toHaveText(talkObject.name);
         await expect(talkLocator.locator('.pull-right'), `Looking for room for ${talkObject.name}`).toContainText(talkObject.room);
       }
     }
