@@ -111,7 +111,7 @@ test('no changes have been made to the Devnexus 2023 schedule', async ({page}) =
           time: '17:00',
           talks: [{room: 'Foyer', name: 'Quarkus Rocks Reception Sponsored by Red Hat and TECH NERD TRIVIA!'}]
         },
-        {time: '17:30', talks: [{room: '315', name: 'The OffHeap Podcast. Devnexus Edition'}]},
+        {time: '17:30', talks: [{room: '312', name: 'The OffHeap Podcast. Devnexus Edition'}]},
       ],
     },
     {
@@ -149,7 +149,7 @@ test('no changes have been made to the Devnexus 2023 schedule', async ({page}) =
             {room: '303', name: '5 years of Jakarta EE Panel: a look into the future'},
             {room: '304', name: 'Typescript Deep Dive'},
             {room: '305', name: 'To Java 20 and Beyond!'},
-            {room: '311', name: 'A Community Approach to OSS Distribution'},
+            {room: '311', name: 'No Session'},
             {room: '312', name: 'Change Data Streaming Patterns in Distributed Systems'},
             {room: '313', name: 'Knative Core Concepts! And Spiders!'},
             {room: '314', name: 'Introducing Spring for Apache Pulsar'},
